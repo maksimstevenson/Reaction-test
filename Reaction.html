@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Reaction</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="animate.css">
 	<style type="text/css">
 		
         body{
@@ -23,11 +25,11 @@
 <body>
 	<h1>Check your reaction!</h1>
 	<p>Click the boxes and circles!</p>
-	<p>Your time:<span id="time">0 sec</span></p>
+	<p>Your time:<span id="time"></span>0 sec</p>
 
-	<div id="box"></div>
+	<div id="box" class="jello"></div>
 
 <script type="text/javascript" src="JS/index.js"></script>
-
+<script>$('#box').addClass('animated jello');</script>
 </body>
 </html>

@@ -30,7 +30,7 @@
             box.style.borderRadius="0";
             }
             var top = Math.random();
-            top = top*900;
+            top = top*800;
             
             var left = Math.random();
             left = left*1000;
